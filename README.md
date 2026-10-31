@@ -33,3 +33,22 @@ Create and activate a virtual environment, then install the dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Running the Tests
+
+Run:
+
+```bash
+python -m pytest -v --basetemp=.pytest_temp
+```
+
+## Test Result
+
+All tests pass successfully:
+
+```text
+12 passed
+```
+
+A screenshot of the successful test run is included in the repository.
